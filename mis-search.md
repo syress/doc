@@ -94,7 +94,8 @@ export class DemoListComponent implements{
 
 ###  Model
 <p id=1></p>
-### InputModel 
+
+#### InputModel 
 
 ```
 export interface InputModel {
@@ -110,7 +111,8 @@ export interface InputModel {
 ```
 
 <p id=2></p>
-### DateTimePickerInputMode
+
+#### DateTimePickerInputMode
 
 ```
 export interface DateTimePickerInputMode {
@@ -121,6 +123,6 @@ export interface DateTimePickerInputMode {
 
 ---------
 ### 提示
->如果```type='dropDown'``` ，只有在公共字典里**`定义该字段的字典`** ，下拉框列表才能显示
+>如果```type='dropDown'``` ，只有在公共字典里** `定义该字段的字典` ** ，下拉框列表才能显示
 
 
