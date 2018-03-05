@@ -94,7 +94,7 @@ export class DemoListComponent implements{
 
 ###  Model
 <p id=1></p>
-####  InputModel 
+### InputModel 
 
 ```
 export interface InputModel {
@@ -110,7 +110,7 @@ export interface InputModel {
 ```
 
 <p id=2></p>
-####  DateTimePickerInputMode
+### DateTimePickerInputMode
 
 ```
 export interface DateTimePickerInputMode {
