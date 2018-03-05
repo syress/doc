@@ -1,9 +1,9 @@
-#mis-search使用说明
+# mis-search使用说明
 
 
 ----------
 > 为了统一搜索区域样式而封装的公共搜索组件
-####**特点**
+#### **特点**
 - 样式支持自适应
 - 可单独设置搜索条件默认展开（收起）
 - 默认接受url参数填充表单
@@ -11,12 +11,12 @@
 
 
 ----------
-##**Input**
+## **Input**
 | Name         | Type         | Default  | Description         |
 | :----------- | :----------- | :------- | :------------------ |
 | inputOption      | ```InputModel```  | ```null```     | [详情参考此处](#1)    |
 
-##**Output**
+## **Output**
 | Name         | Parameters   | Description        |
 | :----------- | :----------- | :----------------  | 
 | urlParams    | queryParams      | url参数 |
@@ -25,14 +25,14 @@
 ----------
 
 
-##**代码示例**
+## **代码示例**
 
-###Template
+### Template
 
 ```
 <mis-search [options]="inputOption" (urlParams)="getUrlParams($event)"></mis-search>
 ```
-###Component
+### Component
 
 ```
 import {
@@ -121,7 +121,7 @@ export interface DateTimePickerInputMode {
 
 
 ---------
-###提示
+### 提示
 >如果```type='dropDown'``` ，只有在公共字典里**`定义该字段的字典`** ，下拉框列表才能显示
 
 
