@@ -124,6 +124,6 @@ export interface DateTimePickerInputMode {
 
 ---------
 ### 提示
-如果 ```type='dropDown'``` ，只有在公共字典里 __ `定义该字段的字典` __  ，下拉框列表才能显示
+如果 ```type='dropDown'``` ，只有在公共字典里 **`定义该字段的字典`**  ，下拉框列表才能显示
 
 
