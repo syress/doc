@@ -1,7 +1,6 @@
 # mis-search使用说明
 
 
-----------
 > 为了统一搜索区域样式而封装的公共搜索组件
 #### **特点**
 - 样式支持自适应
@@ -93,9 +92,9 @@ export class DemoListComponent implements{
 ----------
 
 
-### Model
+###  Model
 <p id=1></p>
-#### InputModel 
+####  InputModel 
 
 ```
 export interface InputModel {
@@ -111,7 +110,7 @@ export interface InputModel {
 ```
 
 <p id=2></p>
-#### DateTimePickerInputMode
+####  DateTimePickerInputMode
 
 ```
 export interface DateTimePickerInputMode {
